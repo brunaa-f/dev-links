@@ -1,40 +1,105 @@
 <!DOCTYPE html>
-<html lang="pt-br" class="light">
+<html lang="pt-BR">
+	<head>
+		<link
+			rel="preconnect"
+			href="https://fonts.googleapis.com" />
+		<link
+			rel="preconnect"
+			href="https://fonts.gstatic.com"
+			crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap"
+			rel="stylesheet" />
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="assets/css/styles.css" />
+		<title>DevLinks</title>
+	</head>
+	<body class="dark">
+		<div class="container">
+			<div class="wrapper-profile">
+				<img
+					class="photo"
+					alt="brunaa.f" />
+				<p class="username">@brunaa.f</p>
+			</div>
+			<div class="wrapper-switch">
+				<label class="switch-track">
+					<input
+						id="switch-toggle-theme"
+						class="switch-toggle"
+						type="checkbox"
+						name="switch-theme"
+						tabindex="0"
+						role="switch" />
+				</label>
+			</div>
+			<ul class="wrapper-links">
+				<li>
+					<a
+						href=""
+						target="_blank"
+						class="btn-link">
+						Ver meu portfólio
+					</a>
+				</li>
+				<li>
+					<a
+						href="https://rocketseat.com.br/explorer"
+						target="_blank"
+						class="btn-link">
+						Conheça a trilha Explorer
+					</a>
+				</li>
+			</ul>
+			<div class="wrapper-social-links">
+				<a
+					class="social-link"
+					href=""
+					target="_blank">
+					<ion-icon name="logo-github"></ion-icon>
+				</a>
+				<a
+					class="social-link"
+					href=""
+					target="_blank">
+					<ion-icon name="logo-instagram"></ion-icon>
+				</a>
+				<a
+					class="social-link"
+					href=""
+					target="_blank">
+					<ion-icon name="logo-youtube"></ion-icon>
+				</a>
+				<a
+					class="social-link"
+					href=""
+					target="_blank">
+					<ion-icon name="logo-linkedin"></ion-icon>
+				</a>
+			</div>
+			<footer class="wrapper-footer">
+				Feito por &nbsp;
+				<a
+					href="https://instagram.com/brunaa.f"
+					target="_blank"
+					>@brunaa.f</a
+				>.
+			</footer>
+		</div>
 
-<head>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>DevLinks</title>
-</head>
-<link rel="stylesheet" href="./style.css">
+		<script
+			type="module"
+			src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+		<script
+			nomodule
+			src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
-<body>
-  <div id="container">
-    <div id="profile">
-      <img src="./assets/Avatar-n.png">
-      <p>@Brunaa-f</p>
-    </div>
-    <ul>
-      <li>
-        <a href="#" target="_blank">Nlw</a>
-      </li>
-      <li>
-        <a href="#" target="_blank">Portifólio</a>
-      </li>
-    </ul>
-    <div id="social-links">
-      <a href="https://github.com/brunaa-f" target="_blank">
-        <ion-icon name="logo-github"></ion-icon>
-      </a>
-      <a href="https://www.linkedin.com/in/brunaa-f/" target="_blank">
-        <ion-icon name="logo-linkedin"></ion-icon>
-      </a>
-    </div>
-  </div>
-  <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
-</body>
-
+		<script src="./assets/js/script.js"></script>
+	</body>
 </html>
